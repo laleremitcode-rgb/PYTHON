@@ -1,0 +1,58 @@
+# -------- Arithmetic Operators --------
+a = 10
+b = 3
+print(a + b)   # addition
+print(a - b)   # subtraction
+print(a * b)   # multiplication
+print(a / b)   # division
+print(a % b)   # modulus
+print(a ** b)  # exponent
+print(a // b)  # floor division
+
+# -------- Assignment Operators --------
+x = 5
+x += 3
+x -= 2
+x *= 2
+x /= 2
+x %= 2
+x **= 2
+x //= 2
+print(x)
+
+# -------- Comparison Operators --------
+print(a == b)
+print(a != b)
+print(a > b)
+print(a < b)
+print(a >= b)
+print(a <= b)
+
+# -------- Logical Operators --------
+p = True
+q = False
+print(p and q)
+print(p or q)
+print(not p)
+
+# -------- Identity Operators --------
+m = [1, 2, 3]
+n = m
+o = [1, 2, 3]
+print(m is n)
+print(m is not o)
+
+# -------- Membership Operators --------
+data = [10, 20, 30, 40]
+print(20 in data)
+print(50 not in data)
+
+# -------- Bitwise Operators --------
+c = 6   # 110
+d = 3   # 011
+print(c & d)   # AND
+print(c | d)   # OR
+print(c ^ d)   # XOR
+print(~c)      # NOT
+print(c << 1)  # Left shift
+print(c >> 1)  # Right shift
